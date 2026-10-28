@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact SwiftMart with a question or order enquiry.">
+  <title>SwiftMart | Contact</title><link rel="stylesheet" href="css/style.css"><script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">S</span><span>SwiftMart</span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav-links" aria-label="Main navigation"><a href="index.html">Home</a><a href="products.html">Products</a><a href="cart.html">Cart <span class="cart-count">0</span></a><a class="active" href="contact.html">Contact</a></nav></header>
+  <main>
+    <section class="page-banner compact-banner"><p class="eyebrow">WE'RE HERE TO HELP</p><h1>Let's talk.</h1><p>Have a question about a product or your order? Send us a message.</p></section>
+    <section class="section contact-layout">
+      <div class="contact-copy"><p class="eyebrow">CONTACT SWIFTMART</p><h2>Good service starts with a conversation.</h2><p>Complete the form and we will show a confirmation on this demo website. The form does not send data to a real email address or server.</p>
+        <div class="contact-detail"><span class="contact-symbol">✉</span><div><strong>Email enquiries</strong><p>hello@swiftmart.example</p></div></div>
+        <div class="contact-detail"><span class="contact-symbol">◷</span><div><strong>Business hours</strong><p>Monday – Friday, 09:00 – 17:00</p></div></div>
+        <div class="contact-detail"><span class="contact-symbol">♡</span><div><strong>Here to help</strong><p>Product questions and order enquiries</p></div></div>
+      </div>
+      <form id="contact-form" class="contact-form" novalidate>
+        <h2>Send an enquiry</h2><p class="muted">Fields marked with * are required.</p>
+        <label for="contact-name">Name *</label><input id="contact-name" name="name" autocomplete="name" required minlength="2" placeholder="Enter your name">
+        <label for="contact-email">Email address *</label><input id="contact-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+        <label for="contact-message">Message *</label><textarea id="contact-message" name="message" rows="5" required minlength="10" placeholder="How can we help you?"></textarea>
+        <p class="form-error" id="contact-error" role="alert"></p><button class="button button-primary button-full" type="submit">Send message <span aria-hidden="true">→</span></button>
+        <p id="contact-success" class="success-message" role="status" hidden></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand brand-footer" href="index.html"><span class="brand-mark">S</span><span>SwiftMart</span></a><p>Useful finds for everyday living.</p><div class="footer-links"><a href="products.html">Products</a><a href="contact.html">Contact us</a></div><small>© <span class="current-year"></span> SwiftMart Online Shop. Student demonstration website.</small></footer>
+</body>
+</html>
